@@ -3,12 +3,12 @@
 ## examples
 
 - router
-  - [react-router-dom]()
+  - [react-router-dom](https://github.com/YutaSugimura/awesome-frontend/tree/master/examples/react-router)
 
 - http request
-  - [axios]()
-  - [redaxios]()
-  - [ky]()
+  - [axios](https://github.com/YutaSugimura/awesome-frontend/tree/master/examples/fetch/axios)
+  - [redaxios](https://github.com/YutaSugimura/awesome-frontend/tree/master/examples/fetch/redaxios)
+  - [ky](https://github.com/YutaSugimura/awesome-frontend/tree/master/examples/fetch/ky)
 
 ## References
 
