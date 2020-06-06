@@ -1,0 +1,58 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["react"],
+  "parser": "babel-eslint",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-undef": "warn",
+    "no-console": "warn",
+    "no-shadow": "error",
+    "no-sparse-arrays": "error",
+    "dot-notation": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "prettier/prettier": ["error"]
+  },
+  "overrides": [{
+    "files": ["**/*.ts", "**/*.tsx"],
+    "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "prettier/@typescript-eslint"
+    ],
+    "plugins": ["@typescript-eslint"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "./tsconfig.json",
+      "ecmaFeatures": {
+        "tsx": true
+      }
+    },
+    "rules": {
+      "@typescript-eslint/ban-ts-ignore": "off",
+      "@typescript-eslint/no-explicit-any": "warn",
+      "@typescript-eslint/no-empty-interface": "error",
+      "@typescript-eslint/no-empty-interface": "error",
+      "@typescript-eslint/no-var-requires": "error",
+      "@typescript-eslint/no-non-null-assertion": "error",
+      "prettier/prettier": ["error"]
+    }
+  }]
+}

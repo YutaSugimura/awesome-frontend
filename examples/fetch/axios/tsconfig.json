@@ -17,12 +17,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "jsx": "react"
   },
   "include": [
-    "**/*.ts", "**/*.tsx", "**/*.spec.tsx", "**/*.spec.ts"
+    "src"
   ]
 }

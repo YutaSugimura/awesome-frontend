@@ -23,6 +23,6 @@
     "jsx": "react"
   },
   "include": [
-    "**/*.ts", "**/*.tsx", "**/*.spec.tsx", "**/*.spec.ts"
+    "src"
   ]
 }
