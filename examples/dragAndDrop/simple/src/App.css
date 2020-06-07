@@ -1,0 +1,25 @@
+.container {
+  margin: 10px;
+}
+
+.list-item {
+  width: 80%;
+  max-width: 500px;
+  height: 50px;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  background-color: lightgrey;
+  border: medium solid rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.list-item-dragging {
+  background-color: lightblue;
+  transform: scale(1.1);
+}
+
+.input-section {
+  text-align: center;
+}
